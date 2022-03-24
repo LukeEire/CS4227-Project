@@ -1,9 +1,11 @@
+import roomPackage.Room;
 
 public class EasyMap implements Map {
 	
 	String map;
 	int[] roomIDs;
 	String[] exitDirections;
+	Room[] rooms;
 	
 	public EasyMap() {
 		

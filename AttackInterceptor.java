@@ -1,8 +1,8 @@
 
 public class AttackInterceptor {
 
-	public void playerAtkBuff(Player p, Enemy e) {
-		int attackStrength = p.attack;
+	public void playerAtk(Player p, Enemy e) {
+		int attackStrength = p.attackStat;
 		
 		if(p.inventory.size() > 0) {
 			for(int i = 0; i < p.inventory.size(); i++) {
